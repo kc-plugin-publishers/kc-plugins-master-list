@@ -1,32 +1,46 @@
-<plugin comment="comments here are of course optional and only for developers">
-<name comment="The name of the plugin">
+<plugin comment="comments like this are of course optional and only for developers">
+<name comment="The name of the plugin, usually the same as defined inside the plugin itself.">
 MyPlugin
 </name>
 <shortDescription comment="A one-liner plain text description">
 Plugin for nothing.
 </shortDescription>
 <longDescription comment ="Longer description with basic html formatting">
-Add here any information you want
+Add here any information you want.
 </longDescription>
 
-<version comment="the user can select between versions or they can even co-exist">
+<version comment="The user can select between versions. If several co-existing versions are wanted they can have their own metafiles with different plugin names (e.g. MyPlugin, MyPlugin-dev)">
 <versionNumber comment="probably the same as the tag in a VCS">
 0.1
 </versionNumber>
-<zipFileSource comment="Http(s) address of the zip file. Optional.">
-<file comment="a file to be installed">
-<source comment="example for a file installed from the zip file">
-TopLevelDirInsideZipFileIfAny/MyPlugin.py
+<versionInfo comment="Info about this version in basic html format. Maybe short changelog.">
+Different versions can have different source and destination files.
+</versionInfo>
+<worksWithAppVersions comment="It's fair to tell the user if this works with their application versions">
+Tested with 4.0.7, should work with 5.0.0
+</worksWithAppVersions>
+<zipFileSource comment="Http(s) address of the zip file. Optional. Check the Download button of github to find out the url.">
+</zipFileSource>
+<zipTopLevelDir comment="The top level directory inside the zip file inside which the files are. Optional.">
+MyPlugin
+</zipTopLevelDir>
+<destinationDir comment="The destination directory inside the plugins directory. Optional, not needed especially for simple one-file plugins.">
+</destinationDir>
+<file comment="a file to be installed from a zip file">
+<source comment="The file path&name installed from the zip file. zipTopLevelDir is prepended if it exists.">
+MyPlugin.py
 </source>
-<destination>
-pluginDirNameToBeCreatedInsideActivePluginsDir/MyPlugin.py
+<destination comment="The file path&name. destinationDir is prepended if it exists.">
+MyPlugin/MyPlugin.py
 </destination>
 </file>
-<file comment="a file to be installed">
-<source comment="Example for a file installed from the internet. To find out the url in github view the file as 'raw'.">
-https://github.com/kc-plugin-publishers/kc-plugins-master-list/master/nonexistent-file.py
+<file comment="a file to be installed from the internet">
+<source comment="Example for a file installed from the internet. To find out the url in github or gitlab view the file as 'raw'.">
+https://github.com/kc-plugin-publishers/kc-plugins-master-list/master/nonexistent-dir/nonexistent-file.py
 </source>
-<destination>pluginDirNameToBeCreatedInsideActivePluginsDir/MyPlugin.py</destination>
+<destination comment="The file path&name. destinationDir is prepended if it exists.">
+otherclasses/OtherMyPluginClass.py
+</destination>
 </file>
 </version>
 </plugin>
