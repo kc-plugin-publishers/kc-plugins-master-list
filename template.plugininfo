@@ -1,0 +1,32 @@
+<plugin comment="comments here are of course optional and only for developers">
+<name comment="The name of the plugin">
+MyPlugin
+</name>
+<shortDescription comment="A one-liner plain text description">
+Plugin for nothing.
+</shortDescription>
+<longDescription comment ="Longer description with basic html formatting">
+Add here any information you want
+</longDescription>
+
+<version comment="the user can select between versions or they can even co-exist">
+<versionNumber comment="probably the same as the tag in a VCS">
+0.1
+</versionNumber>
+<zipFileSource comment="Http(s) address of the zip file. Optional.">
+<file comment="a file to be installed">
+<source comment="example for a file installed from the zip file">
+TopLevelDirInsideZipFileIfAny/MyPlugin.py
+</source>
+<destination>
+pluginDirNameToBeCreatedInsideActivePluginsDir/MyPlugin.py
+</destination>
+</file>
+<file comment="a file to be installed">
+<source comment="Example for a file installed from the internet. To find out the url in github view the file as 'raw'.">
+https://github.com/kc-plugin-publishers/kc-plugins-master-list/master/nonexistent-file.py
+</source>
+<destination>pluginDirNameToBeCreatedInsideActivePluginsDir/MyPlugin.py</destination>
+</file>
+</version>
+</plugin>
