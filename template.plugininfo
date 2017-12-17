@@ -27,10 +27,10 @@
 		<destinationDir comment="The destination directory inside the plugins directory. Optional, not needed especially for simple one-file plugins.">
 		</destinationDir>
 		<file comment="a file to be installed from a zip file">
-			<source comment="The file path&name installed from the zip file. zipTopLevelDir is prepended if it exists.">
+			<source comment="The file path'n'name installed from the zip file. zipTopLevelDir is prepended if it exists.">
 			MyPlugin.py
 			</source>
-			<destination comment="The file path&name. destinationDir is prepended if it exists.">
+			<destination comment="The file path'n'name. destinationDir is prepended if it exists.">
 			MyPlugin/MyPlugin.py
 			</destination>
 		</file>
@@ -38,7 +38,7 @@
 			<source comment="Example for a file installed from the internet. To find out the url in github or gitlab view the file as 'raw'.">
 			https://github.com/kc-plugin-publishers/kc-plugins-master-list/master/nonexistent-dir/nonexistent-file.py
 			</source>
-			<destination comment="The file path&name. destinationDir is prepended if it exists.">
+			<destination comment="The file path'n'name. destinationDir is prepended if it exists.">
 			otherclasses/OtherMyPluginClass.py
 			</destination>
 		</file>
