@@ -1,18 +1,13 @@
-<plugin>
-	<name>SimplePluginExample</name>
-	<shortDescription>
-	A simple example of a simple plugin
-	</shortDescription>
-	
-	<version>
-		<versionNumber>1.0</versionNumber>
-		<versionInfo>
-		First and hopefully the last version.
-		</versionInfo>
-		<zipFileSource>https://github.com/kc-plugin-publishers/KC_SimplePluginExample/archive/master.zip</zipFileSource>
-		<file>
-			<source>KC_SimplePluginExample-master/SimplePluginExample.py</source>
-			<destination>SimplePluginExample.py</destination>
-		</file>
-	</version>
+<plugin comment="Example for a simple plugin, only one file">
+   <name>SimplePluginExample</name>
+   <shortDescription>A simple example of a simple plugin</shortDescription>
+   <version>
+      <versionNumber>1.0</versionNumber>
+      <versionInfo>First and hopefully the last version.</versionInfo>
+      <zipFileSource>https://github.com/kc-plugin-publishers/KC_SimplePluginExample/archive/master.zip</zipFileSource>
+      <file>
+         <source>KC_SimplePluginExample-master/SimplePluginExample.py</source>
+         <destination>SimplePluginExample.py</destination>
+      </file>
+   </version>
 </plugin>
