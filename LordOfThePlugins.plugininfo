@@ -1,5 +1,6 @@
 <plugin>
    <name>LordOfThePlugins</name>
+   <deleteDir>lordoftheplugins</deleteDir>
    <version>
       <zipFileSource>https://github.com/kc-plugin-publishers/lord-of-the-plugins/archive/master.zip</zipFileSource>
       <file>
