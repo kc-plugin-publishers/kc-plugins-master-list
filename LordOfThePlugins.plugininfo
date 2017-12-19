@@ -1,0 +1,30 @@
+<plugin>
+   <name>LordOfThePlugins</name>
+   <version>
+      <zipFileSource>https://github.com/kc-plugin-publishers/lord-of-the-plugins/archive/master.zip</zipFileSource>
+      <file>
+         <source>lord-of-the-plugins-master/lord_of_the_plugins_action.py</source>
+         <destination>lordoftheplugins/lord_of_the_plugins_action.py</destination>
+      </file>
+      <file>
+         <source>lord-of-the-plugins-master/downloader.py</source>
+         <destination>lordoftheplugins/downloader.py</destination>
+      </file>
+      <file>
+         <source>lord-of-the-plugins-master/plugininfo.py</source>
+         <destination>lordoftheplugins/plugininfo.py</destination>
+      </file>
+      <file>
+         <source>lord-of-the-plugins-master/zipfilehandler.py</source>
+         <destination>lordoftheplugins/zipfilehandler.py</destination>
+      </file>
+      <file>
+         <source>lord-of-the-plugins-master/localfilehandler.py</source>
+         <destination>lordoftheplugins/localfilehandler.py</destination>
+      </file>
+      <file>
+         <source>lord-of-the-plugins-master/lord_of_the_plugins.ini</source>
+         <destination>lordoftheplugins/lord_of_the_plugins.ini</destination>
+      </file>
+   </version>
+</plugin>
