@@ -1,0 +1,26 @@
+<plugin>
+   <name>KiCommand</name>
+   <version>
+      <zipFileSource>https://github.com/HiGregSmith/KiCommand/archive/master.zip</zipFileSource>
+      <file>
+         <source>KiCommand-master/kicommand/__init__.py</source>
+         <destination>KiCommand/__init__.py</destination>
+      </file>
+      <file>
+         <source>KiCommand-master/kicommand/kicommand.py</source>
+         <destination>KiCommand/kicommand.py</destination>
+      </file>
+      <file>
+         <source>KiCommand-master/kicommand/kicommand_gui.py</source>
+         <destination>KiCommand/kicommand_gui.py</destination>
+      </file>
+      <file>
+         <source>KiCommand-master/kicommand/kicommand_persist.commands</source>
+         <destination>KiCommand/kicommand_persist.commands</destination>
+      </file>
+      <file>
+         <source>KiCommand-master/kicommand/wxpointutil.py</source>
+         <destination>KiCommand/wxpointutil.py</destination>
+      </file>
+   </version>
+</plugin>
