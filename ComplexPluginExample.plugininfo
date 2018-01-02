@@ -1,0 +1,19 @@
+<plugin>
+   <name>ComplexPluginExample</name>
+   <deleteDir>complex_plugin_example</deleteDir>
+   <version>
+      <zipFileSource>https://github.com/kc-plugin-publishers/KC_ComplexPluginExample/archive/master.zip</zipFileSource>
+      <file>
+         <source>KC_ComplexPluginExample-master/__init__.py</source>
+         <destination>complex_plugin_example/__init__.py</destination>
+      </file>
+      <file>
+         <source>KC_ComplexPluginExample-master/complex_plugin_action.py</source>
+         <destination>complex_plugin_example/complex_plugin_action.py</destination>
+      </file>
+      <file>
+         <source>KC_ComplexPluginExample-master/complex_plugin_utils.py</source>
+         <destination>complex_plugin_example/complex_plugin_utils.py</destination>
+      </file>
+   </version>
+</plugin>
