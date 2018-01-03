@@ -1,4 +1,4 @@
-<plugin>
+<plugin comment="Example of a plugin which has more than one files">
    <name>ComplexPluginExample</name>
    <deleteDir>complex_plugin_example</deleteDir>
    <version>
