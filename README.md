@@ -3,7 +3,7 @@ This is the plugins list where publisher (developers or other interested parties
 
 No prerequisities beyond having a github account. No scripting, programming or even git skills needed. You don't even have to have any software installed on your machine, everything can be done by the github web UI.
 
-First you write the .plugininfo xml file. Copy the template or one of the example files (ATM there's one short example). Edit to your liking. The script files to be installed must be available through url. ATM zipped projects are handled. You have to add the zip url to the xml file and the file names which will be installed from that zip.
+First you write the .plugininfo xml file. Copy the template or one of the example files. Edit to your liking. The script files to be installed must be available through url. ATM zipped projects are handled. You have to add the zip url to the xml file and the file names which will be installed from that zip.
 
 You have to be added to the kc-plugin-publishers github organization and have rights to create branches etc. to this repo. Ask someone who can add you.
 
