@@ -20,6 +20,10 @@
          <destination>lordoftheplugins/lord_of_the_plugins_cli.py</destination>
       </file>
       <file>
+         <source>lord-of-the-plugins-master/backend/__init__.py</source>
+         <destination>lordoftheplugins/backend/__init__.py</destination>
+      </file>
+      <file>
          <source>lord-of-the-plugins-master/backend/downloader.py</source>
          <destination>lordoftheplugins/backend/downloader.py</destination>
       </file>
