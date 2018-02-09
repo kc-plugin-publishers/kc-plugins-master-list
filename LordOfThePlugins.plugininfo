@@ -25,23 +25,23 @@
       </file>
       <file>
          <source>lord-of-the-plugins-master/backend/plugininfo.py</source>
-         <destination>lordoftheplugins/plugininfo.py</destination>
+         <destination>lordoftheplugins/backend/plugininfo.py</destination>
       </file>
       <file>
          <source>lord-of-the-plugins-master/backend/zipfilehandler.py</source>
-         <destination>lordoftheplugins/zipfilehandler.py</destination>
+         <destination>lordoftheplugins/backend/zipfilehandler.py</destination>
       </file>
       <file>
          <source>lord-of-the-plugins-master/backend/localfilehandler.py</source>
-         <destination>lordoftheplugins/localfilehandler.py</destination>
+         <destination>lordoftheplugins/backend/localfilehandler.py</destination>
       </file>
             <file>
          <source>lord-of-the-plugins-master/backend/plugininfocollection.py</source>
-         <destination>lordoftheplugins/plugininfocollection.py</destination>
+         <destination>lordoftheplugins/backend/plugininfocollection.py</destination>
       </file>
             <file>
          <source>lord-of-the-plugins-master/backend/confighandler.py</source>
-         <destination>lordoftheplugins/confighandler.py</destination>
+         <destination>lordoftheplugins/backend/confighandler.py</destination>
       </file>
       <file>
          <source>lord-of-the-plugins-master/lord_of_the_plugins.ini</source>
