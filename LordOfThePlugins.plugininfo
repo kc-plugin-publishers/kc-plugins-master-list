@@ -4,6 +4,14 @@
    <version>
       <zipFileSource>https://github.com/kc-plugin-publishers/lord-of-the-plugins/archive/master.zip</zipFileSource>
       <file>
+         <source>lord-of-the-plugins-master/__init__.py</source>
+         <destination>lordoftheplugins/__init__.py</destination>
+      </file>
+      <file>
+         <source>lord-of-the-plugins-master/__main__.py</source>
+         <destination>lordoftheplugins/__main__.py</destination>
+      </file>
+      <file>
          <source>lord-of-the-plugins-master/lord_of_the_plugins_cli.py</source>
          <destination>lordoftheplugins/lord_of_the_plugins_cli.py</destination>
       </file>
