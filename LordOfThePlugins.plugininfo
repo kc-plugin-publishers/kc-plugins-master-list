@@ -12,6 +12,10 @@
          <destination>lordoftheplugins/__main__.py</destination>
       </file>
       <file>
+         <source>lord-of-the-plugins-master/pluginmanager_action.py</source>
+         <destination>lordoftheplugins/pluginmanager_action.py</destination>
+      </file>
+      <file>
          <source>lord-of-the-plugins-master/lord_of_the_plugins_cli.py</source>
          <destination>lordoftheplugins/lord_of_the_plugins_cli.py</destination>
       </file>
