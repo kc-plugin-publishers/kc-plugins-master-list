@@ -4,24 +4,32 @@
    <version>
       <zipFileSource>https://github.com/kc-plugin-publishers/lord-of-the-plugins/archive/master.zip</zipFileSource>
       <file>
-         <source>lord-of-the-plugins-master/lord_of_the_plugins_action.py</source>
-         <destination>lordoftheplugins/lord_of_the_plugins_action.py</destination>
+         <source>lord-of-the-plugins-master/lord_of_the_plugins_cli.py</source>
+         <destination>lordoftheplugins/lord_of_the_plugins_cli.py</destination>
       </file>
       <file>
-         <source>lord-of-the-plugins-master/downloader.py</source>
-         <destination>lordoftheplugins/downloader.py</destination>
+         <source>lord-of-the-plugins-master/backend/downloader.py</source>
+         <destination>lordoftheplugins/backend/downloader.py</destination>
       </file>
       <file>
-         <source>lord-of-the-plugins-master/plugininfo.py</source>
+         <source>lord-of-the-plugins-master/backend/plugininfo.py</source>
          <destination>lordoftheplugins/plugininfo.py</destination>
       </file>
       <file>
-         <source>lord-of-the-plugins-master/zipfilehandler.py</source>
+         <source>lord-of-the-plugins-master/backend/zipfilehandler.py</source>
          <destination>lordoftheplugins/zipfilehandler.py</destination>
       </file>
       <file>
-         <source>lord-of-the-plugins-master/localfilehandler.py</source>
+         <source>lord-of-the-plugins-master/backend/localfilehandler.py</source>
          <destination>lordoftheplugins/localfilehandler.py</destination>
+      </file>
+            <file>
+         <source>lord-of-the-plugins-master/backend/plugininfocollection.py</source>
+         <destination>lordoftheplugins/plugininfocollection.py</destination>
+      </file>
+            <file>
+         <source>lord-of-the-plugins-master/backend/confighandler.py</source>
+         <destination>lordoftheplugins/confighandler.py</destination>
       </file>
       <file>
          <source>lord-of-the-plugins-master/lord_of_the_plugins.ini</source>
